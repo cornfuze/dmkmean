@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 
+st.set_page_config(page_title="K-Means Clustering Kelompok 12")
+
 st.markdown(
     """
     <style>
@@ -18,7 +20,6 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.set_page_config(page_title="K-Means Clustering Kelompok 12")
 # Fungsi untuk memuat data
 @st.cache_data
 def muat_data():
